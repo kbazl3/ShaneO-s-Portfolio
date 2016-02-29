@@ -1,7 +1,7 @@
 angular.module("portfolio")
     .directive("hedder", function() {
         return {
-            templateUrl: "views/header.html",
+            templateUrl: "templates/header.html",
             restrict: "E",
 
         }

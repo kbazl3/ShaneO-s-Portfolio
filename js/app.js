@@ -9,16 +9,20 @@ angular.module("portfolio", ["ui.router"])
                 url:"/",
                 templateUrl:"views/home.html"
             })
+
             .state("originals", {
                 url:"/originals",
                 templateUrl:"views/originals.html"
             })
+
             .state("contact", {
                 url:"/contact",
                 templateUrl:"views/contact.html"
             })
+
             .state("tattoos", {
                 url:"/tattoos",
-                templateUrl:"views/tattoos.html"
+                templateUrl:"views/tattoos.html",
+                controller: "tattoosCtrl"
             })
     })

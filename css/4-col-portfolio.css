@@ -7,17 +7,26 @@ html {
 }
 
 body {
-    padding-top: 70px;
-    background-color: #625e4d; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    /*padding-top: 70px;*/
+     /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    /*cursor:url(/images/other/tatgun.png), auto;*/
 }
     /*cursor:url(/images/other/tatgun.png), auto;*/
-/*
-a:hover
- cursor:url(/images/other/tatgun.png), auto;*/
+
+/*a:hover {
+ cursor:url(/images/other/tatgun.png), auto;
+ }*/
 
 
 
 /*make sure to delete this once making the mouse active*/
+
+.GalleryBackground {
+    width: 100%;
+    background-color: #625e4d;
+    margin-top: -20px;
+    padding-top: 70px;
+}
 
 .portfolio-item {
     margin-bottom: 25px;
@@ -40,7 +49,7 @@ img {
 
 }
 
-.portfolio-item:hover > a > img {
+.portfolio-item:hover  > a > img {
 	width: 100%;
 	position: absolute;
 	z-index: 3;
@@ -54,9 +63,20 @@ img {
     color: #dfdbdc;
 }
 
-.something {
-    width: 100%;
-    height: 150px;
-    background-color: teal;
-    margin-top: -70px;
+
+.full {
+  background: url("http://www.9hdw.com/uploads/images/original/2013-06/2301_dark-abstract-art.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+/*test modal*******************************************************************/
+
+#myModal2 < img {
+    margin-left: auto;
+    margin-right: auto;
 }
