@@ -32,6 +32,10 @@ body {
     margin-bottom: 25px;
 }
 
+.portfolio-item > img {
+    box-shadow: 10px 10px 5px #454337;
+}
+
 footer {
     margin: 50px 0;
     background-color: #4D625E;
@@ -41,12 +45,31 @@ footer {
 	background-color: #4D625E;
 	height: 9%;
     text-align: center;
+    font-size: 2.5em;
+}
+
+.footerLink {
+    margin-right: 150px;
+
+}
+
+.image {
+    height: 604px;
+    width: 462px;
+    background-image: image("images/originals/snakeAxe3.png");
+    /*opacity: .9;*/
+    margin-left: auto;
+    margin-right: auto;
 }
 
 img {
 	border-radius: 5px 20px 5px;
-	box-shadow: 10px 10px 5px #454337;
+}
 
+.img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
 }
 
 .portfolio-item:hover  > a > img {
@@ -74,10 +97,37 @@ img {
 
 .mainh1 {
     color: white;
+    font-size: 5em;
+    margin-left: 2%;
 }
 
 .maintxt {
     color: white;
+    font-size: 2em;
+    margin-left: 2%;
+}
+
+.modal-body {
+    margin-left: 450px;
+    margin-right: auto;
+}
+
+iframe {
+    float: left;
+    margin-top: 5%;
+}
+.anchorInk {
+    margin-top: 5%;
+    display: inline-block;
+    float: left;
+}
+
+.anchorContact {
+    width: 33%;
+    border: 2px solid green;
+    height: auto;
+    float: right;
+
 }
 
 
