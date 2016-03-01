@@ -7,6 +7,7 @@ html {
 }
 
 body {
+    font-family: cursive;
     /*padding-top: 70px;*/
      /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     /*cursor:url(/images/other/tatgun.png), auto;*/
@@ -49,8 +50,11 @@ footer {
 }
 
 .footerLink {
-    margin-right: 150px;
+    margin-left: 160px;
+}
 
+.headerLink {
+    margin-left: 160px;
 }
 
 .image {
@@ -78,6 +82,10 @@ img {
 	z-index: 3;
 }
 
+.portfolio-item > a > img {
+    box-shadow: 10px 10px 5px #383839;
+}
+
 .page-header {
     color: #dfdbdc;
 }
@@ -97,25 +105,31 @@ img {
 
 .mainh1 {
     color: white;
-    font-size: 5em;
+    font-size: 4em;
     margin-left: 2%;
 }
 
 .maintxt {
     color: white;
-    font-size: 2em;
+    font-size: 1em;
     margin-left: 2%;
 }
 
 .modal-body {
-    margin-left: 450px;
+    margin-left: 650px;
     margin-right: auto;
 }
 
+/*.modal {
+    display: flex;
+    justify-content: center;
+}*/
+
 iframe {
-    float: left;
+    float: center;
     margin-top: 5%;
 }
+
 .anchorInk {
     margin-top: 5%;
     display: inline-block;
@@ -124,17 +138,27 @@ iframe {
 
 .anchorContact {
     width: 33%;
-    border: 2px solid green;
-    height: auto;
-    float: right;
+    margin-top: 5%;
+    height: 590px;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
 
 }
 
-
-
-/*test modal*******************************************************************/
-
-#myModal2 < img {
+.logo {
+    width: 400px;
+    height: 150px;
     margin-left: auto;
     margin-right: auto;
+    background-image: url("http://www.anchorink.com/img/anchor_logo.png");
+    background-repeat: no-repeat;
+}
+
+.anchorContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
